@@ -8,8 +8,8 @@ const Links = [
         url: 'https://twitter.com/anabneri',
     },
     { 
-        label: 'DevTo',
-        url: 'https://dev.to/anabneri',
+        label: 'Linkedin',
+        url: 'https://www.linkedin.com/in/anabeatrizdev/',
     },
     { 
         label: 'Instagram',

@@ -1,13 +1,13 @@
 import { Github } from "@styled-icons/boxicons-logos/Github"
 import { Twitter } from "@styled-icons/boxicons-logos/Twitter"
-import { DevTo } from "@styled-icons/boxicons-logos/DevTo"
-import { Instagram} from "@styled-icons/boxicons-logos/InstagramAlt"
+import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin"
+import { Instagram } from "@styled-icons/boxicons-logos/Instagram"
 import { Youtube } from "@styled-icons/boxicons-logos/Youtube"
 
 const Icons = {
     Github,
     Twitter,
-    DevTo,
+    Linkedin,
     Instagram,
     Youtube
 }
