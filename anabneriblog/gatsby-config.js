@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Ana Beatriz(blog);`,
-    description: `🇧🇷 Software Engineer • Java Full Stack Developer • Tech Speaker • Community Co-Organizer • Writer of some Articles 
-    #Angular #Java #Kotlin #Nodejs`,
+    position:`Software Enginner`,
+    description: `Java Full Stack Developer • Tech Speaker • Community Co-Organizer • Writer of some Articles about Java, WebDev, and LifeStuffs`,
     author: `@anabneri`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
