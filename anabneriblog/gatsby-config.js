@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Ana Beatriz(blog);`,
     position:`Software Enginner`,
-    description: `Java Full Stack Developer • Tech Speaker • Community Co-Organizer • Writer of some Articles about Java, WebDev, and LifeStuffs`,
+    description: `Tech Speaker • Community Co-Organizer •Java FullStack Dev • Articles about Java, WebDev and Life :p `,
     author: `@anabneri`,
   },
   plugins: [
