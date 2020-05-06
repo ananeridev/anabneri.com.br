@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 export const MenuBarWrapper = styled.aside`
-    align-item: center;
+    align-items: center;
     background: #1d2a38;
     border-left: 1px solid #4f2549;
     display: flex;
@@ -10,7 +10,7 @@ export const MenuBarWrapper = styled.aside`
     height: 100vh;
     justify-content: space-between;
     padding: 0.8rem 0;
-    posisition fixed;
+    position: fixed;
     right: 0;
     width: 3.75rem;
       
@@ -22,7 +22,7 @@ export const MenuBarGroup = styled.div`
 `
 
 export const MenubarLink = styled(Link)`
-    display:block;
+    display: block;
 `
 
 export const MenuBarItem = styled.span`
@@ -30,7 +30,7 @@ export const MenuBarItem = styled.span`
     cursor: pointer;
     display: block;
     height: 3.75rem;
-    padding 1.1rem;
+    padding: 1.1rem;
     position: relative;
     width: 3.75rem;
 

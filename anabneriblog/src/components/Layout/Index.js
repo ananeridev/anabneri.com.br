@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
   return (
     <S.LayoutWrapper>
       <GlobalStyles />
-          <Sidebar />
+        <Sidebar />
         <S.LayoutMain>{children}</S.LayoutMain> 
         <MenuBar /> 
     </S.LayoutWrapper>
