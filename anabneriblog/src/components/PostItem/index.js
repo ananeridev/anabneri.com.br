@@ -17,7 +17,7 @@ const PostItem = ({
       <S.PostItemTag background={background}>{category}</S.PostItemTag>
       <S.PostItemInfo>
         <S.PostItemDate>
-          {date} ♥ {timeToRead} min de leitura
+          {date} ♥ {timeToRead} min of reading
         </S.PostItemDate>
         <S.PostItemTitle>{title}</S.PostItemTitle>
         <S.PostItemDescription>{description}</S.PostItemDescription>

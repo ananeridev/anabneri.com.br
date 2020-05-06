@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ana Beatriz(blog);`,
-    position:`Software Enginner`,
+    position: `Software Enginner`,
     description: `Tech Speaker • Community Co-Organizer •Java FullStack Dev • Articles about Java, WebDev and Life :p `,
     author: `@anabneri`,
   },
@@ -13,6 +13,19 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [],
       },
     },
     `gatsby-transformer-sharp`,
