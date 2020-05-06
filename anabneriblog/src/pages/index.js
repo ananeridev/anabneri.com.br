@@ -7,7 +7,7 @@ import PostItem from "../components/PostItem"
 
 const IndexPage = () => {
   const { allMarkdownRemark } = useStaticQuery(graphql`
-    query MySiteMetadata {
+    query PostList {
       allMarkdownRemark {
         edges {
           node {
@@ -25,9 +25,16 @@ const IndexPage = () => {
     }
   `)
 
+  const postList = allMarkdownRemark.edges
+
   return (
     <Layout>
       <SEO title="Home" />
+      {postList.map({
+        node: {
+          frontmatter: { background, category, date, description, title },
+        },
+      })}
       <PostItem
         slug="/about/"
         category="Java"
