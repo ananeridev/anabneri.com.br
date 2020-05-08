@@ -3,8 +3,8 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import PostItem from "../components/PostItem"
 import Pagination from "../components/Pagination"
+import PostItem from "../components/PostItem"
 
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
@@ -37,6 +37,7 @@ const BlogList = props => {
           />
         )
       )}
+
       <Pagination
         isFirst={isFirst}
         isLast={isLast}
@@ -64,7 +65,7 @@ export const query = graphql`
           frontmatter {
             background
             category
-            date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+            date(locale: "pt-br", formatString: "MMMM DD, YYYY")
             description
             title
           }

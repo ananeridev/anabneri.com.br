@@ -8,6 +8,8 @@ background: "#982d8a"
 
 # The Violin
 
+![minha foto](/assets/img/eu.jpg)
+
 **Like any dreamy girl always wanted to reach people, I didn't know how or when, but there was like this my personal goal**
 
 I came from a simple family, we never had all the money in the world, but my father always struggled to provide us with the best, so my parents always wanted me to be an influential person in the career in music (classical music), because my father followed this branch as second "job", and my mother deposited this dream in me. I accepted, didn't have enough resources and money, but I accepted..

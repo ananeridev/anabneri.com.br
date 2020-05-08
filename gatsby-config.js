@@ -11,6 +11,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `uploads`,
+        path: `${__dirname}/static/assets/img`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
@@ -25,7 +32,27 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [],
+        plugins: [
+          {
+            resolve: "gatsby-remark-relative-images-V2",
+          },
+          {
+            resolve: "gatsby-remark-images",
+            oprtions: {
+              maxWidth: 960,
+              linkImagesToOriginal: false,
+            },
+          },
+          {
+            resolve: `gatsby-plugin-disqus`,
+            options: {
+              shortname: `anabneri`,
+            },
+          },
+
+          `gatsby-remark-lazy-load`,
+          `gatsby-remark-prismjs`,
+        ],
       },
     },
     `gatsby-transformer-sharp`,
@@ -42,8 +69,5 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
