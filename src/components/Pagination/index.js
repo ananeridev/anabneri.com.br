@@ -10,21 +10,21 @@ const Pagination = ({
   currentPage,
   numPages,
   prevPage,
-  nextPages,
+  nextPage,
 }) => (
   <S.PaginationWrapper>
-    {!isFirst && <Link to={prevPage}> ◀ previous page</Link>}
+    {!isFirst && <Link to={prevPage}>← página anterior</Link>}
     <p>
-      {currentPage} from {numPages}
+      {currentPage} de {numPages}
     </p>
-    {!isLast && <Link to={nextPage}>next page ▶</Link>}
+    {!isLast && <Link to={nextPage}>proxima página →</Link>}
   </S.PaginationWrapper>
 )
 
-pagination.propTypes = {
+Pagination.propTypes = {
   isFirst: propTypes.bool.isRequired,
   isLast: propTypes.bool.isRequired,
-  current: propTypes.number.isRequired,
+  currentPage: propTypes.number.isRequired,
   numPages: propTypes.number.isRequired,
   prevPage: propTypes.string,
   nextPage: propTypes.string,
