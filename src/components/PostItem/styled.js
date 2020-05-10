@@ -2,18 +2,18 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const PostItemLink = styled(Link)`
-  color: #d8e0e8;
+  color: var(--texts);
   display: flex;
   text-decoration: none;
 
   &:hover {
-    color: #c51f5d;
+    color: var(--highlight);
   }
 `
 
 export const PostItemWrapper = styled.section`
   align-items: center;
-  border-bottom: 1px solid #c51f5d;
+  border-bottom: 1px solid var(--highlight);
   display: flex;
   padding: 2rem 3rem;
   width: 100%;
@@ -21,10 +21,11 @@ export const PostItemWrapper = styled.section`
 
 export const PostItemTag = styled.div`
   align-items: center;
-  background: ${props => (props.background ? props.background : "#c51f5d")};
+  background: ${props =>
+    props.background ? props.background : "var(--borders)"};
   box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
   border-radius: 50%;
-  color: #fff;
+  color: var(--texts);
   display: flex;
   font-size: 1.3rem;
   font-weight: 700;

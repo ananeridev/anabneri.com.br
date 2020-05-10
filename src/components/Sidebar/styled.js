@@ -1,14 +1,14 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 export const SidebarWrapper = styled.aside`
-    align-items: center;
-    border-right: 1px solid #4f2549;
-    background: #1d2a38;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    position: fixed;
-    padding: 2rem;
-    text-align: center;
-    width: 20rem;
+  align-items: center;
+  border-right: 1px solid var(--borders);
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed;
+  padding: 2rem;
+  text-align: center;
+  width: 20rem;
 `
