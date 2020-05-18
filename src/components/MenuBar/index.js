@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react"
 import { HomeHeart as Home } from "@styled-icons/boxicons-solid/HomeHeart"
 import { SearchAlt as Search } from "@styled-icons/boxicons-regular/SearchAlt"
 import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
-import { LightBulb as Light } from "@styled-icons/heroicons-outline/LightBulb"
+import { Sun as Light } from "@styled-icons/boxicons-solid/Sun"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { ThList as List } from "@styled-icons/typicons/ThList"
 
