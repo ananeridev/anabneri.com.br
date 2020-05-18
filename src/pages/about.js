@@ -54,14 +54,14 @@ const AboutPage = () => (
         <li>
           {" "}
           <span role="img" aria-label="Girl computer">
-            👩‍💻
+            🦄
           </span>{" "}
-          Java Developer
+          Java FullStack
         </li>
         <li>
           {" "}
           <span role="img" aria-label="Girl computer">
-            ✨
+            👩🏼‍💻
           </span>{" "}
           NoSQL and SQL databases
         </li>
@@ -70,11 +70,74 @@ const AboutPage = () => (
           <span role="img" aria-label="Girl computer">
             ✨
           </span>{" "}
-          NoSQL and SQL databases
+          Algorithms
+        </li>
+        <li>
+          {" "}
+          <span role="img" aria-label="Girl computer">
+            💃🏿
+          </span>{" "}
+          C++ / Arduino
+        </li>
+        <li>
+          {" "}
+          <span role="img" aria-label="Girl computer">
+            ✨
+          </span>{" "}
+          CI/CD - DevOps life
+        </li>
+        <li>
+          {" "}
+          <span role="img" aria-label="Girl computer">
+            🤸🏻‍♂️
+          </span>{" "}
+          Kotlin
+        </li>
+        <li>
+          {" "}
+          <span role="img" aria-label="Girl computer">
+            🎇
+          </span>{" "}
+          Angular - HTML and CSS
+        </li>
+        <li>
+          {" "}
+          <span role="img" aria-label="Girl computer">
+            🎉
+          </span>{" "}
+          AWS Services
+        </li>
+        <li>
+          {" "}
+          <span role="img" aria-label="Girl computer">
+            😎
+          </span>{" "}
+          Nodejs
+        </li>
+        <li>
+          {" "}
+          <span role="img" aria-label="Girl computer">
+            😮
+          </span>{" "}
+          Firebase
+        </li>
+        <li>
+          {" "}
+          <span role="img" aria-label="Girl computer">
+            🙌🏽
+          </span>{" "}
+          Groovy Grails
+        </li>
+        <li>
+          {" "}
+          <span role="img" aria-label="Girl computer">
+            🛠
+          </span>{" "}
+          IoT
         </li>
       </ul>
 
-      <h2>Contact me</h2>
+      <h2> 🍻 Contact me</h2>
 
       <p>Follow me, let's be friends :D</p>
 
