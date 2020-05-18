@@ -1,0 +1,48 @@
+backend:
+  name: github
+  repo: github.com/anabneri/ananeri.com
+  branch: master
+  site_domain: ananeri.netlify.app
+
+  publish_mode: editorial_workflow
+  media_folder: "static/assets/img"
+  public_folder: "assets/img"
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - { label: "image", name: "thumbnail", widget: "image" }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options: ["Java", "Web", "Life", "JS", "Nodejs", "DEV", "HACKER"],
+        }
+      - {
+          label: "Background",
+          name: "background",
+          widget: "select",
+          options:
+            [
+              { label: "Java", value: "#e2baff" },
+              { label: "Web", value: "#f241a3" },
+              { label: "Life", value: "#D6BA32" },
+              { label: "JS", value: "#D6BA32" },
+              { label: "Nodejs", value: "#30c42b" },
+              { label: "DEV", value: "#a52bc4" },
+              { label: "HACKER", value: "#89c42b" },
+            ],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
