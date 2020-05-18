@@ -8,6 +8,7 @@ const postQuery = `{
         }
         frontmatter {
           title
+          background
           category
           date_timestamp: date
           date(locale: "en-us", formatString: "MMMM DD, YYYY")
