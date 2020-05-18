@@ -8,7 +8,7 @@ background: "#982d8a"
 
 # The Violin
 
-![minha foto](/assets/img/eu.jpg)
+![minha foto](/assets/img/girlcomputer.jpg)
 
 **Like any dreamy girl always wanted to reach people, I didn't know how or when, but there was like this my personal goal**
 

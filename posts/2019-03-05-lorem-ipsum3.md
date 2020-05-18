@@ -4,6 +4,7 @@ title: Lorem Ipsum 3
 description: Tori quem ignes ius accessus sententia Iovemque.
 category: Lorem
 background: "#982d8a"
+image: "/assets/img/anabaneri.png"
 ---
 
 # Tori quem ignes ius accessus sententia Iovemque
