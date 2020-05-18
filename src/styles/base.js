@@ -2,7 +2,7 @@ import styled from "styled-components"
 import media from "styled-media-query"
 
 export const PostHeader = styled.header`
-  color: var(--postColor);
+  color: var(--texts);
   margin: auto;
   max-width: 70rem;
   padding: 5rem 5rem 0;
@@ -62,7 +62,7 @@ export const MainContent = styled.section`
   .tags,
   iframe,
   .button-post {
-    color: var(--postColor);
+    color: var(--texts);
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.7;
@@ -115,7 +115,7 @@ export const MainContent = styled.section`
     `}
   }
   blockquote {
-    color: var(--postColor);
+    color: var(--texts);
     border-left: 0.3rem solid var(--highlight);
     padding: 0 1.875rem;
     margin: 3.125rem auto;
@@ -195,7 +195,7 @@ export const MainContent = styled.section`
     text-decoration: none;
     transition: opacity 0.5s;
     svg {
-      color: var(--postColor);
+      color: var(--texts);
     }
     &:hover {
       opacity: 0.8;
