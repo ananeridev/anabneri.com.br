@@ -40,7 +40,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-relative-images-V2",
+            resolve: "gatsby-remark-relative-images-v2",
           },
           {
             resolve: "gatsby-remark-images",
