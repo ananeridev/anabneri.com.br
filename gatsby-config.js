@@ -7,7 +7,7 @@ module.exports = {
     position: `Software Enginner`,
     description: `Tech Speaker • Community Co-Organizer •Java FullStack Dev • Articles about Java, WebDev and Life :p `,
     author: `@anabneri`,
-    siteUrl: `https://ananeri.com`,
+    siteUrl: `https://ananeri.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
