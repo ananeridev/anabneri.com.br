@@ -11,7 +11,10 @@ I used some technologies in this project:
 - Styled Components
 - Graphql
 
-# :nail_care: Design thought to be minimalist and objective 
+# :nail_care: Design thought to be minimalist and objective and inpired in [Twitter](https://twitter.com/anabneri)
+
+<img width="946" alt="print3" src="https://user-images.githubusercontent.com/42419543/82353036-3c7b0380-99d5-11ea-9616-5e3200138065.PNG">
+
 
 ### Using Dark Mode :new_moon:
 
