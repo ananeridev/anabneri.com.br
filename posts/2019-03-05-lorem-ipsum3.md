@@ -11,4 +11,4 @@ image: "/assets/img/anabneriposter.png"
 
 Olá galera, esse blog foi desenvolvido junto do curso do [Willian Justen](https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/)
 
-Foi demais fazer esse site, ainda estou na V1 mas pretendo melhorar bastante coise nas próximas versões!
+Foi demais fazer esse site, ainda estou na V1 mas pretendo melhorar algumas coisas nas próximas versões!
